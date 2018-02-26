@@ -1,0 +1,8 @@
+Steps:
+
+1- create categories (five)
+2- create post, and assign them to a category (three for each category)
+3- add the plugins: Contact Form 7
+                    AddToAny Share Buttons
+                    WP Maintenance
+                    Yoast Seo
