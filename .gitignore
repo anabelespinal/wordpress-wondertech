@@ -1,3 +1,10 @@
 wp-admin/
 wp-config.php
 readme.html
+wp-includes/
+wp-content/uploads/2018/
+wp-content/themes/test_theme/
+wp-content/twentyfifteen/
+wp-content/twentysixteen/
+wp-content/twentyseventeen/
+wp-content/northsouth/core_db/
