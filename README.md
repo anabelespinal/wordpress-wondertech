@@ -270,7 +270,7 @@ wp_head()
 wp_footer()
 ```
 
-Con éstas funciones nosotros llamamos a una función de wordpress para usar las direcciones de archivos css, imágenes, javascript, est, que usaremos.
+Con éstas funciones nosotros llamamos a una función de wordpress para usar las direcciones de archivos css, imágenes, javascript, etc, que usaremos.
 
 La función con esas dirreciones de debe declarar en el archivo [functions.php](wp-content/themes/northsouth/functions.php)
 
@@ -310,3 +310,39 @@ add_action('wp_enqueue_scripts', 'northsouth_scripts');
 
 Cuando llamamos a wp_head() y wp_footer() wordpress interpreta que estás llamando a la acción **wp_enqueue_scripts**
 y coloca los links correctos para nuestro blog.
+
+Así como Wordpress tienes sus propio plugins y widgets, nosotros podemos crear los nuestros.
+
+Ahora hemos creado un plugin y un widget.
+
+El plugin añadirá un campo checkbox en el administrador del post para que se convierta en un **Salient Post**.
+
+
+![Salient Post](images_readme/salient_post.PNG)
+
+Puedes ver la lógica del plugin en [Plugin Post Selected](wp-content/plugins/NSSPostSelected)
+
+Los post que tengan marcada la opción de 'Salient Post' aparecerán en la página principal.
+Ahora que tenemos nuestros post creados y marcados estarán en el banner principal:
+
+![Salient Post](images_readme/post_salient.PNG)
+
+Hacer un widget es my similar, para hacerlo crearemos nustro widget en la carpeta de nuestro theme.
+
+Five post most recent:
+[Widget Post](wp-content/themes/northsouth/Five_Posts_Recent_Widget.php)
+
+Siguiendo la lógica de crear nuestro widget el la página de administrador nos dirigmos hacía
+
+**appearance < widgets**
+
+![Widget Post](images_readme/widget.PNG)
+
+Antes debemos activar nuestros widgets en el archivo [functions.php](wp-content/themes/northsouth/functions.php).
+
+Con nuestro widget activado en el sidebar nos mostrará los cinco posts más recientes.
+
+
+![Five Posts](images_readme/five_posts.PNG)
+
+Y así podemos seguir añadiendo nuevas funcionalidades a nuestro blog.
