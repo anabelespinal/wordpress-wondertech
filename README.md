@@ -1,4 +1,6 @@
-# WORDPRESS'S BLOG   
+# WORDPRESS'S BLOG
+
+## Puedes ver el blog termindao *[aquí](http://www.wordpress-cloud-example.com/)*
 
 **Wordpress's Blog** tiene como finalidad mostrar funciones que nos ayudará a desarrollar un blog en wordpress de manera fácil y rápida,
 usaremos funciones propias de wordpress para desarrollar el blog.
