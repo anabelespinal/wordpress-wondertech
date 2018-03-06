@@ -1,6 +1,6 @@
 # WORDPRESS'S BLOG
 
-## Puedes ver el blog termindao *[aquí](http://www.wordpress-cloud-example.com/)*
+## Puedes ver el blog termindao *[aquí](http://159.89.92.41/)*
 
 **Wordpress's Blog** tiene como finalidad mostrar funciones que nos ayudará a desarrollar un blog en wordpress de manera fácil y rápida,
 usaremos funciones propias de wordpress para desarrollar el blog.
